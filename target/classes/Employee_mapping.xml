@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="com.accolite.pack.Employee" table="mappedEmployee">
+	<id name="id">
+		<generator class="identity"></generator>
+	</id>
+	
+	<property name="firstName" column="First_Name"></property>
+	<property name="lastName" column="Last_Name"></property>
+	<property name="email" column="Email"></property>
+	</class>
+</hibernate-mapping>
